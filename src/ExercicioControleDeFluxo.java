@@ -6,15 +6,16 @@ public class ExercicioControleDeFluxo {
         salario >= 2000 && salario < 4000 15%
         salario > 5000 20%
          */
-        int salario = 6000;
+        double salario = 1000;
         if (salario < 1000) {
-            System.out.println(5 * salario / 100);
+            System.out.println(salario * 5/100);
         } else if (salario >= 1000 && salario < 2000) {
-            System.out.println(10 * salario / 100);
+            System.out.println(salario * 10/100);
         } else if (salario >= 2000 && salario < 4000) {
-            System.out.println(15 * salario / 100);
+            System.out.println(salario * 15/100);
             } else{
-                System.out.println(20 * salario / 100);
+            System.out.println(salario * 20/100);
+
             }
         }
     }
